@@ -1,0 +1,75 @@
+*
+{
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+.header
+{
+  text-align: center;
+}
+.header p:nth-of-type(1)
+{
+  letter-spacing: 5px;
+    color: #434141;
+    font-weight: bold;
+    font-size: 23px
+}
+.header p:nth-of-type(2)
+{
+  color: #999494;
+}
+.header .fa-heart{
+  color: #6e5f5f;
+      font-size: 2em;
+}
+.container
+{
+  display: inline-flex;
+}
+.first-partner,.middle,.second-partner
+{
+  width: 33%;
+      text-align: center;
+      padding: 3em;
+}
+img
+{
+  width: 200px;
+      height: 200px;
+      background-color: #8584b0;
+      padding: 1em;
+      border-radius: 50%;
+}
+.line,.line2
+{
+  width: 9em;
+      height: 2px;
+      background-color: #EEE;
+      display: inline-flex;
+      margin: 0 10px 5px 5px;
+}
+.fonts
+{
+  margin-top: 1em;
+}
+.fab
+{
+  padding-right: .5em;
+  color: #c0c0c0;
+}
+.fisrt , .second , .third , .fourth
+{
+  width: 32%;
+      border: 1px solid;
+      padding: 0em;
+      display: inline-block;
+      margin: 1em;
+}
+.line2
+{
+  width: 6em;
+}
+h1
+{
+  color: red;
+}

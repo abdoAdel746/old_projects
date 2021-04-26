@@ -1,0 +1,169 @@
+*
+{
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+body
+{
+  background-color: #F5F4FB;
+}
+.container
+{
+    display: flex;
+}
+
+.first-div
+{
+  margin-left: 9em;
+  background-color: #3729B2;
+  width: 23%;
+  margin-top: 12em;
+  height: 40em;
+  padding:2em;
+      z-index: 1;
+}
+.second-div
+{
+  background-color: #3729B2;
+  width: 60%;
+  margin-bottom: -12em;
+}
+.fa-openid
+{
+  margin-bottom: 2em;
+  width: 50px;
+  background-color: white;
+  padding: 0.3em;
+  height: 50px;
+  border-radius: 100%;
+  font-size: 2em;
+  text-align: center;
+}
+ul
+{
+  margin-left: -2.4em;
+}
+li
+{
+  display: block;
+  margin-bottom: 2em;
+  width: 6em;
+  padding: 0.2em;
+  padding-left: 1em;
+  border-radius: .3em;
+  color: #A8A2DD;
+}
+li:hover
+{
+  background-color: #4D40BA;
+  cursor: pointer;
+  opacity: 0.5;
+}
+h5
+{
+  color: #ACA6DE;
+}
+h2
+{
+  margin-top: -1em;
+  color: white;
+}
+h2 + p
+{
+  color: #7A71CA;
+}
+p+div
+{
+  color: white;
+}
+.fa-long-arrow-alt-right
+{
+  margin-left: 1em;
+}
+.white
+{
+  background-color: white;
+  margin-top: 12em;
+  height: 40em;
+  width: 48em;
+  padding: 3em;
+}
+.white .head
+{
+  width: 12em;
+  color: black;
+    margin-bottom: 3em;
+}
+.white h1
+{
+  font-weight: lighter;
+}
+.white h1 + div
+{
+  color: #d1d1d1;
+  margin-top: -.5em;
+  font-size: 1.8em;
+}
+input
+{
+  padding: 1em;
+      padding-left: 2em;
+      display: block;
+      border: none;
+      border-bottom: 2px solid black;
+          width: 92%;
+}
+input[name="message"]
+{
+  padding-bottom: 6em;
+  margin-bottom: 2em;
+}
+.fa-paper-plane , .fa-paper-plane + span
+{
+  color :blue;
+}
+form
+{
+  width: 39%;
+}
+.after-form h1
+{
+      font-size: 1.5em;
+      font-weight: bold;
+}
+.white-footer
+{
+  display: flex;
+}
+.after-form
+{
+  width: 52%;
+margin-left: 4em;
+margin-top: -1.4em;
+}
+.after-form p
+{
+  color: #b2a7a7;
+}
+.after-form p+div , .after-form div+div
+{
+  color: #918ad3;
+  margin-bottom: 1em;
+}
+.after-form +img
+{
+  position: absolute;
+    top: 41.3em;
+    left: 62.7em;
+}
+.circle
+{
+  width: 10em;
+  height: 10em;
+  border-radius: 100%;
+  background-color: #0FDA9A;
+  z-index: 1;
+  position: absolute;
+  top: 9em;
+  left: 6em;
+}

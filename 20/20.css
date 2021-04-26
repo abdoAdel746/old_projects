@@ -1,0 +1,161 @@
+*
+{
+  box-sizing: border-box;
+  font-family: "arial" , tahoma;
+  font-size : 20px;
+  text-transform: capitalize;
+}
+body
+{
+  background-color : grey;
+  margin : 10px;
+
+}
+.container
+{
+  width: 90%;
+  margin: 20px auto;
+  background-color: white;
+  padding: 1.3em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border: 1px solid black;
+}
+h1
+{
+  display: inline-block;
+      width: 97%;
+}
+.points
+{
+      width: 2px;
+      height: 2px;
+      border-radius: 50%;
+      background-color: black;
+      padding: 2px;
+      margin: 2px;
+      transform: rotate(90deg);
+      display: inline-block;
+}
+.point
+{
+  float: right;
+}
+input
+{
+  padding: .5em;
+  margin: 1em;
+  margin-left: 0;
+}
+.first-search
+{
+  width: 10em;
+}
+.second-search
+{
+  width: 22em;
+}
+.third-search
+{
+  width: 18em;
+}
+button
+{
+      width: 7em;
+      height: 2.5em;
+      border: 1px solid;
+      border-radius: 5px;
+    /*  background: rgb(115,36,160);
+      background: linear-gradient(90deg, rgba(115,36,160,0.9363095580028886) 45%, rgba(69,55,158,0.9363095580028886) 68%);*/
+      background-image: linear-gradient(to right, #44379E, #7324A0);
+      color: white;
+      cursor: pointer;
+}
+table
+{
+  width: 100%;
+  border-collapse: collapse;
+      text-align: left;
+}
+tr
+{
+  border-bottom: 1px solid;
+  padding: 5px;
+}
+tr:nth-last-of-type(1)
+{
+  border: 0px solid;
+}
+.first-triangel
+{
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 9px solid #f00;
+  margin-left: 10px;
+  display: inline-block;
+}
+img
+{
+      width: 70px;
+      height: 70px;
+      border: 0px;
+}
+.amount
+{
+  width: 3em;
+      height: 2em;
+      padding-top: 0.4em;
+      padding: auto;
+      background-color: white;
+      border: 1px solid grey;
+      text-align: center;
+}
+p:first-of-type
+{
+  display: inline-block;
+
+}
+.prev
+{
+  width: 7%;
+      padding-left: 50%;
+      padding-right: 7%;
+      display: inline-block;
+}
+.pg_number
+{
+  width: 4%;
+  height: 2.8em;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: .4em;
+  padding: .9em;
+  cursor: pointer;
+}
+.pg_number:nth-of-type(1)
+{
+  background-color: #7324a0;
+}
+.pg_number:hover,.status:hover
+{
+  background-color: grey;
+}
+.next
+{
+  display: inline-block;
+  padding-left: 2%;
+}
+input[type="checkbox"]:checked
+{
+  box-shadow: 2px 1px 18px 12px #7324a0;
+}
+.status
+{
+  width: 70%;
+  height: 2em;
+  padding: .4em;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #2CE5C0;
+  cursor: pointer;
+}

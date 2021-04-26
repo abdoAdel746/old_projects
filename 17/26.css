@@ -1,0 +1,39 @@
+*
+{
+  box-sizing: border-box;
+  font-family: 'arial' , tahoma;
+}
+.container
+{
+  width : 90%;
+  height : 10em;
+  margin : 20px auto;
+}
+.rec1
+{
+  width : 20%;
+  height : 8em;
+  display: inline-block;
+  background-color: grey;
+}
+.rec2
+{
+  width : 20%;
+  height : 8em;
+  display: inline-block;
+  background-color: black;
+}
+.rec3
+{
+  width : 20%;
+  height : 8em;
+  display: inline-block;
+  background-color: grey;
+}
+.rec4
+{
+  width : 20%;
+  height : 8em;
+  display: inline-block;
+  background-color: grey;
+}

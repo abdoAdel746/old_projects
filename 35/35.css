@@ -1,0 +1,134 @@
+*
+{
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+body
+{
+  background-color: #E8F4FC;
+}
+.container
+{
+  display: inline-flex;
+  margin: 50px auto;
+margin-left: 28em;
+}
+.first
+{
+  text-align: center;
+  padding: 2em;
+  background-color: white;
+  margin-right: 2em;
+      height: 29em;
+      border-radius: .7em;
+}
+.first div
+{
+  display: flex;
+    margin-top: -.4em;
+}
+.first h1
+{
+  display: flex;
+  margin-left: 1em;
+  margin-bottom: 2em;
+}
+button
+{
+  padding: 1em;
+      text-align: center;
+      color: white;
+      background-color: #13C8A6;
+      margin-top: 2em;
+      border: 1px solid #13C8A6;
+      outline: 1px;
+      cursor: pointer;
+}
+.second button
+{
+  background-color: #EFCB53;
+  border: 1px solid #EFCB53;
+}
+.third button
+{
+  background-color: #555FAE;
+  border: 1px solid #555FAE;
+}
+.second
+{
+  margin-top: 2em;
+}
+.third
+{
+  margin-top: 4em;
+}
+.ribbon
+{
+  position: relative;
+  left: -2.5em;
+  width: 10em;
+  padding: 1em;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  background-color: #13C8A6;
+  color: white;
+}
+.ribbon:before {
+    top: -20px;
+}
+.ribbon:before {
+  content: '';
+      position: absolute;
+      width: 10px;
+      left: 1px;
+      height: 20px;
+      border: 4px solid #007862a3;
+      border-left-color: #EEE;
+      border-top-color: #EEE;
+      border-right-color: white;
+}
+*:before{
+    box-sizing: border-box;
+}
+.second .ribbon
+{
+  position: relative;
+  left: -2.5em;
+  width: 10em;
+  padding: 1em;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  color: white;
+  background-color: #EFCB53;
+}
+.second .ribbon:before {
+  position: absolute;
+  width: 10px;
+  left: 1px;
+  height: 20px;
+  border: 4px solid #dbb023e0;
+  border-left-color: #EEE;
+  border-top-color: #EEE;
+  border-right-color: white;
+}
+.third .ribbon
+{
+  position: relative;
+  left: -2.5em;
+  width: 10em;
+  padding: 1em;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  color: white;
+  background-color: #4450aec7;
+}
+.third .ribbon:before {
+  position: absolute;
+  width: 10px;
+  left: 1px;
+  height: 20px;
+  border: 4px solid #4450aec7;
+  border-left-color: #EEE;
+  border-top-color: #EEE;
+  border-right-color: white;
+}
